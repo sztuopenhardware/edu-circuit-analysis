@@ -1,0 +1,27 @@
+{
+  "name": "circuit-analysis-ngspice-lab",
+  "private": true,
+  "version": "1.0.0",
+  "description": "《电路分析A》交互式教学仿真与演示平台（基于 ngspice WebAssembly）",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "eecircuit-engine": "^1.5.4",
+    "katex": "^0.16.11",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.3"
+  }
+}
